@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidSDLHello.iml" filepath="$PROJECT_DIR$/AndroidSDLHello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloSdlAndroid/helloSdlAndroid.iml" filepath="$PROJECT_DIR$/helloSdlAndroid/helloSdlAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdl_android_lib/sdl_android_lib.iml" filepath="$PROJECT_DIR$/sdl_android_lib/sdl_android_lib.iml" />
+    </modules>
+  </component>
+</project>

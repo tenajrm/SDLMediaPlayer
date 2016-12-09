@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/res/merged/debug/raw/small_video.mp4",
+        "source": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/src/main/res/raw/small_video.mp4"
+    },
+    {
+        "merged": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/res/merged/debug/raw/mpthreetest.mp3",
+        "source": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/src/main/res/raw/mpthreetest.mp3"
+    },
+    {
+        "merged": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/res/merged/debug/raw/sample_audio.mp3",
+        "source": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/src/main/res/raw/sample_audio.mp3"
+    }
+]

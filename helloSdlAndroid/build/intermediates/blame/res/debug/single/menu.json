@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/res/merged/debug/menu/menu_video.xml",
+        "source": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/src/main/res/menu/menu_video.xml"
+    },
+    {
+        "merged": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
+        "source": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/src/main/res/menu/menu_scrolling.xml"
+    },
+    {
+        "merged": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/res/merged/debug/menu/menu_audio.xml",
+        "source": "/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/src/main/res/menu/menu_audio.xml"
+    }
+]

@@ -1,0 +1,448 @@
+Activity Resolver Table:
+  Schemes:
+      spotify:
+        42c53f30 com.spotify.music/.MainActivity filter 42c87138
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "spotify"
+        42c53f30 com.spotify.music/.MainActivity filter 42c99098
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "spotify"
+        42c53f30 com.spotify.music/.MainActivity filter 42c9f648
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "spotify"
+      http:
+        42c53f30 com.spotify.music/.MainActivity filter 42c87f08
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "open.spotify.com": -1
+          Path: "PatternMatcher{PREFIX: /album}"
+          Path: "PatternMatcher{PREFIX: /app/browse}"
+          Path: "PatternMatcher{PREFIX: /artist}"
+          Path: "PatternMatcher{PREFIX: /autologin}"
+          Path: "PatternMatcher{PREFIX: /charts}"
+          Path: "PatternMatcher{PREFIX: /collection}"
+          Path: "PatternMatcher{PREFIX: /daily-mix-hub}"
+          Path: "PatternMatcher{PREFIX: /episode}"
+          Path: "PatternMatcher{PREFIX: /follow}"
+          Path: "PatternMatcher{PREFIX: /hub}"
+          Path: "PatternMatcher{PREFIX: /party}"
+          Path: "PatternMatcher{PREFIX: /radio}"
+          Path: "PatternMatcher{PREFIX: /running}"
+          Path: "PatternMatcher{PREFIX: /search}"
+          Path: "PatternMatcher{PREFIX: /show}"
+          Path: "PatternMatcher{PREFIX: /special}"
+          Path: "PatternMatcher{PREFIX: /station}"
+          Path: "PatternMatcher{PREFIX: /track}"
+          Path: "PatternMatcher{PREFIX: /user}"
+          Path: "PatternMatcher{PREFIX: /app/concerts}"
+        42c53f30 com.spotify.music/.MainActivity filter 42c981b0
+          Action: "com.facebook.application.174829003346"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "open.spotify.com": -1
+          Path: "PatternMatcher{PREFIX: /album}"
+          Path: "PatternMatcher{PREFIX: /app/browse}"
+          Path: "PatternMatcher{PREFIX: /artist}"
+          Path: "PatternMatcher{PREFIX: /autologin}"
+          Path: "PatternMatcher{PREFIX: /charts}"
+          Path: "PatternMatcher{PREFIX: /collection}"
+          Path: "PatternMatcher{PREFIX: /daily-mix-hub}"
+          Path: "PatternMatcher{PREFIX: /episode}"
+          Path: "PatternMatcher{PREFIX: /follow}"
+          Path: "PatternMatcher{PREFIX: /hub}"
+          Path: "PatternMatcher{PREFIX: /party}"
+          Path: "PatternMatcher{PREFIX: /radio}"
+          Path: "PatternMatcher{PREFIX: /running}"
+          Path: "PatternMatcher{PREFIX: /search}"
+          Path: "PatternMatcher{PREFIX: /show}"
+          Path: "PatternMatcher{PREFIX: /special}"
+          Path: "PatternMatcher{PREFIX: /station}"
+          Path: "PatternMatcher{PREFIX: /track}"
+          Path: "PatternMatcher{PREFIX: /user}"
+          Path: "PatternMatcher{PREFIX: /app/concerts}"
+      https:
+        42c53f30 com.spotify.music/.MainActivity filter 42c87f08
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "open.spotify.com": -1
+          Path: "PatternMatcher{PREFIX: /album}"
+          Path: "PatternMatcher{PREFIX: /app/browse}"
+          Path: "PatternMatcher{PREFIX: /artist}"
+          Path: "PatternMatcher{PREFIX: /autologin}"
+          Path: "PatternMatcher{PREFIX: /charts}"
+          Path: "PatternMatcher{PREFIX: /collection}"
+          Path: "PatternMatcher{PREFIX: /daily-mix-hub}"
+          Path: "PatternMatcher{PREFIX: /episode}"
+          Path: "PatternMatcher{PREFIX: /follow}"
+          Path: "PatternMatcher{PREFIX: /hub}"
+          Path: "PatternMatcher{PREFIX: /party}"
+          Path: "PatternMatcher{PREFIX: /radio}"
+          Path: "PatternMatcher{PREFIX: /running}"
+          Path: "PatternMatcher{PREFIX: /search}"
+          Path: "PatternMatcher{PREFIX: /show}"
+          Path: "PatternMatcher{PREFIX: /special}"
+          Path: "PatternMatcher{PREFIX: /station}"
+          Path: "PatternMatcher{PREFIX: /track}"
+          Path: "PatternMatcher{PREFIX: /user}"
+          Path: "PatternMatcher{PREFIX: /app/concerts}"
+        42c53f30 com.spotify.music/.MainActivity filter 42c981b0
+          Action: "com.facebook.application.174829003346"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "open.spotify.com": -1
+          Path: "PatternMatcher{PREFIX: /album}"
+          Path: "PatternMatcher{PREFIX: /app/browse}"
+          Path: "PatternMatcher{PREFIX: /artist}"
+          Path: "PatternMatcher{PREFIX: /autologin}"
+          Path: "PatternMatcher{PREFIX: /charts}"
+          Path: "PatternMatcher{PREFIX: /collection}"
+          Path: "PatternMatcher{PREFIX: /daily-mix-hub}"
+          Path: "PatternMatcher{PREFIX: /episode}"
+          Path: "PatternMatcher{PREFIX: /follow}"
+          Path: "PatternMatcher{PREFIX: /hub}"
+          Path: "PatternMatcher{PREFIX: /party}"
+          Path: "PatternMatcher{PREFIX: /radio}"
+          Path: "PatternMatcher{PREFIX: /running}"
+          Path: "PatternMatcher{PREFIX: /search}"
+          Path: "PatternMatcher{PREFIX: /show}"
+          Path: "PatternMatcher{PREFIX: /special}"
+          Path: "PatternMatcher{PREFIX: /station}"
+          Path: "PatternMatcher{PREFIX: /track}"
+          Path: "PatternMatcher{PREFIX: /user}"
+          Path: "PatternMatcher{PREFIX: /app/concerts}"
+        42c53f30 com.spotify.music/.MainActivity filter 42c9e8e0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "www.spotify.com": -1
+          Path: "PatternMatcher{PREFIX: /redirect/get-premium/}"
+      com.spotify.music.npam:
+        42e49d50 com.spotify.music/com.sony.snei.np.android.account.oauth.BrowserRedirectReceiverActivity filter 42e4a138
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.spotify.music.npam"
+          Authority: "redirect": -1
+      com.spotify.mobile.android.tos:
+        42d470f0 com.spotify.music/com.spotify.mobile.android.ui.activity.TosTextActivity filter 42d472e0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.spotify.mobile.android.tos"
+
+  Non-Data Actions:
+      com.sonymobile.media.dashboard.ACTION_VIEW_MUSIC_TILE:
+        42c53f30 com.spotify.music/.MainActivity filter 42cee078
+          Action: "com.sonymobile.media.dashboard.ACTION_VIEW_MUSIC_TILE"
+      com.spotify.mobile.android.service.action.session.LOGIN:
+        42cee648 com.spotify.music/com.spotify.mobile.android.service.LoginActivity filter 42d272d0
+          Action: "com.spotify.mobile.android.service.action.session.LOGIN"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        42c53f30 com.spotify.music/.MainActivity filter 42c540e0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+        42c53f30 com.spotify.music/.MainActivity filter 42c54990
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.APP_MUSIC"
+        42cc3bf8 com.spotify.music/com.squareup.leakcanary.internal.DisplayLeakActivity filter 42cc40d8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.PICK:
+        42e639a8 com.spotify.music/com.spotify.mobile.android.spotlets.share.MessengerShareActivity filter 42e63dc0
+          Action: "android.intent.action.PICK"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.facebook.orca.category.PLATFORM_THREAD_20150314"
+      com.spotify.music.NPAM_ACTION_BROWSER:
+        42e491e8 com.spotify.music/com.spotify.mobile.android.arsenal.ArsenalSSOBrowserActivity filter 42e49498
+          Action: "com.spotify.music.NPAM_ACTION_BROWSER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.MUSIC_PLAYER:
+        42c53f30 com.spotify.music/.MainActivity filter 42c54990
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.APP_MUSIC"
+      android.media.action.MEDIA_PLAY_FROM_SEARCH:
+        42c53f30 com.spotify.music/.MainActivity filter 42c9f470
+          Action: "android.media.action.MEDIA_PLAY_FROM_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      com.spotify.sso.action.START_AUTH_FLOW:
+        42e62648 com.spotify.music/com.spotify.mobile.android.sso.AuthorizationActivity filter 42e629d8
+          Action: "com.spotify.sso.action.START_AUTH_FLOW"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        42c53f30 com.spotify.music/.MainActivity filter 42c879a0
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+        42c53f30 com.spotify.music/.MainActivity filter 42c9f360
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.spotify.mobile.android.service.broadcast.session.CONNECTION_STATE_CHANGED:
+        42bc4e60 com.spotify.music/com.spotify.mobile.android.spotlets.collection.receiver.ConnectionStateChangedReceiver filter 42bc50c8
+          Action: "com.spotify.mobile.android.service.broadcast.session.CONNECTION_STATE_CHANGED"
+      com.spotify.mobile.android.ui.widget.BROKER:
+        42e2cf28 com.spotify.music/.spotlets.widget.SpotifyWidget filter 42e2d6b0
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.spotify.mobile.android.ui.widget.PREVIOUS"
+          Action: "com.spotify.mobile.android.ui.widget.PLAY"
+          Action: "com.spotify.mobile.android.ui.widget.NEXT"
+          Action: "com.spotify.mobile.android.ui.widget.BROKER"
+      com.spotify.mobile.android.spotlets.bmw.ACTION_CONNECTED:
+        42f1c8d8 com.spotify.music/com.spotify.mobile.android.spotlets.bmw.registration.ConnectedReceiver filter 42f1cc30
+          Action: "com.spotify.mobile.android.spotlets.bmw.ACTION_CONNECTED"
+      com.spotify.mobile.android.ui.widget.NEXT:
+        42e2cf28 com.spotify.music/.spotlets.widget.SpotifyWidget filter 42e2d6b0
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.spotify.mobile.android.ui.widget.PREVIOUS"
+          Action: "com.spotify.mobile.android.ui.widget.PLAY"
+          Action: "com.spotify.mobile.android.ui.widget.NEXT"
+          Action: "com.spotify.mobile.android.ui.widget.BROKER"
+      com.spotify.mobile.android.ui.widget.PLAY:
+        42e2cf28 com.spotify.music/.spotlets.widget.SpotifyWidget filter 42e2d6b0
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.spotify.mobile.android.ui.widget.PREVIOUS"
+          Action: "com.spotify.mobile.android.ui.widget.PLAY"
+          Action: "com.spotify.mobile.android.ui.widget.NEXT"
+          Action: "com.spotify.mobile.android.ui.widget.BROKER"
+      com.spotify.mobile.android.spotlets.bmw.ACTION_DISCONNECTED:
+        42f1d1b0 com.spotify.music/com.spotify.mobile.android.spotlets.bmw.registration.DisconnectedReceiver filter 42f1d4b0
+          Action: "com.spotify.mobile.android.spotlets.bmw.ACTION_DISCONNECTED"
+      sdl.router.startservice:
+        42bc3d10 com.spotify.music/com.spotify.mobile.android.service.BluetoothServiceManager filter 42bc3f40
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "sdl.router.startservice"
+      com.spotify.music.spotlets.optintrial.action.TRIAL_REMINDER:
+        42dfbaf0 com.spotify.music/.spotlets.optintrial.TrialAlarmBroadcastReceiver filter 42e52448
+          Action: "com.spotify.music.spotlets.optintrial.action.TRIAL_REMINDER"
+          Category: "android.intent.category.DEFAULT"
+      com.iterable.push.NOTIF_OPENED:
+        42f1bf00 com.spotify.music/com.iterable.iterableapi.IterablePushOpenReceiver filter 42f1c1e0
+          Action: "com.iterable.push.NOTIF_OPENED"
+          Category: "com.spotify.music"
+      com.iterable.push.ACTION_PUSH_REGISTRATION:
+        42f161c8 com.spotify.music/com.iterable.iterableapi.IterablePushReceiver filter 42f164a0
+          Action: "com.iterable.push.ACTION_PUSH_REGISTRATION"
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.spotify.music"
+      com.spotify.music.internal.receiver.CACHE_LOG:
+        42bc4778 com.spotify.music/.internal.receiver.LoggerReceiver filter 42bc49b8
+          Action: "com.spotify.music.internal.receiver.CACHE_LOG"
+          Category: "android.intent.category.DEFAULT"
+      com.android.vending.INSTALL_REFERRER:
+        42bd53a0 com.spotify.music/.spotlets.tracker.InstallReferrerReceiver filter 42bd56d8
+          Action: "com.android.vending.INSTALL_REFERRER"
+      android.bluetooth.device.action.ACL_CONNECTED:
+        42bc3d10 com.spotify.music/com.spotify.mobile.android.service.BluetoothServiceManager filter 42bc3f40
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "sdl.router.startservice"
+      com.google.android.c2dm.intent.RECEIVE:
+        42f161c8 com.spotify.music/com.iterable.iterableapi.IterablePushReceiver filter 42f164a0
+          Action: "com.iterable.push.ACTION_PUSH_REGISTRATION"
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.spotify.music"
+        42bd5a90 com.spotify.music/.spotlets.gcm.GcmBroadcastReceiver filter 42bd5e38
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Category: "com.spotify.music"
+        42b9c968 com.spotify.music/io.intercom.android.sdk.gcm.GcmBroadcastReceiver filter 42b9cbd8
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "io.intercom.intercomsdk.gcm"
+      HAP_BIND:
+        42bc6b68 com.spotify.music/com.spotify.mobile.android.spotlets.airbiquity.AirbiquityBroadcastReceiver filter 42bc6e10
+          Action: "HAP_BIND"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        42e2cf28 com.spotify.music/.spotlets.widget.SpotifyWidget filter 42e2d6b0
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.spotify.mobile.android.ui.widget.PREVIOUS"
+          Action: "com.spotify.mobile.android.ui.widget.PLAY"
+          Action: "com.spotify.mobile.android.ui.widget.NEXT"
+          Action: "com.spotify.mobile.android.ui.widget.BROKER"
+      com.google.android.c2dm.intent.REGISTRATION:
+        42b9c968 com.spotify.music/io.intercom.android.sdk.gcm.GcmBroadcastReceiver filter 42b9cbd8
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+          Action: "com.google.android.c2dm.intent.REGISTRATION"
+          Category: "io.intercom.intercomsdk.gcm"
+      com.spotify.mobile.android.ui.widget.PREVIOUS:
+        42e2cf28 com.spotify.music/.spotlets.widget.SpotifyWidget filter 42e2d6b0
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.spotify.mobile.android.ui.widget.PREVIOUS"
+          Action: "com.spotify.mobile.android.ui.widget.PLAY"
+          Action: "com.spotify.mobile.android.ui.widget.NEXT"
+          Action: "com.spotify.mobile.android.ui.widget.BROKER"
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        42bc3d10 com.spotify.music/com.spotify.mobile.android.service.BluetoothServiceManager filter 42bc3f40
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "sdl.router.startservice"
+      android.intent.action.MEDIA_BUTTON:
+        42ea0ec8 com.spotify.music/.internal.receiver.MediaButtonReceiver filter 42ea1300
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.spotify.mobile.android.spotlets.airbiquity.AirbiquityService:
+        42bc5c18 com.spotify.music/com.spotify.mobile.android.spotlets.airbiquity.AirbiquityService filter 42bc6850
+          Action: "com.spotify.mobile.android.spotlets.airbiquity.AirbiquityService"
+      BIND_REQUEST_TYPE_STATUS:
+        42e8b7a0 com.spotify.music/com.spotify.mobile.android.spotlets.smartdevicelink.service.SdlRouterService filter 42e90d78
+          Action: "BIND_REQUEST_TYPE_CLIENT"
+          Action: "BIND_REQUEST_TYPE_ALT_TRANSPORT"
+          Action: "BIND_REQUEST_TYPE_STATUS"
+      android.service.quicksettings.action.QS_TILE:
+        42cc1988 com.spotify.music/com.spotify.mobile.android.service.OfflineModeTileService filter 42cc1f48
+          Action: "android.service.quicksettings.action.QS_TILE"
+      BIND_REQUEST_TYPE_ALT_TRANSPORT:
+        42e8b7a0 com.spotify.music/com.spotify.mobile.android.spotlets.smartdevicelink.service.SdlRouterService filter 42e90d78
+          Action: "BIND_REQUEST_TYPE_CLIENT"
+          Action: "BIND_REQUEST_TYPE_ALT_TRANSPORT"
+          Action: "BIND_REQUEST_TYPE_STATUS"
+      com.spotify.mobile.service.action.COSMOS_PROXY:
+        42e7b610 com.spotify.music/com.spotify.mobile.android.service.SpotifyService filter 42e7b960
+          Action: "com.spotify.mobile.service.action.COSMOS_PROXY"
+      com.google.android.gms.iid.InstanceID:
+        42f0f130 com.spotify.music/com.spotify.mobile.android.service.gcm.DelegatingInstanceIDListenerService filter 42f14430
+          Action: "com.google.android.gms.iid.InstanceID"
+      com.google.android.gms.wearable.BIND_LISTENER:
+        42ebe0e8 com.spotify.music/com.spotify.mobile.android.wear.WearableCommunicationService filter 42ebe5f8
+          Action: "com.google.android.gms.wearable.BIND_LISTENER"
+      android.media.browse.MediaBrowserService:
+        42e99ef0 com.spotify.music/com.spotify.mobile.android.spotlets.androidauto.SpotifyMediaBrowserService filter 42e9a268
+          Action: "android.media.browse.MediaBrowserService"
+      BIND_REQUEST_TYPE_CLIENT:
+        42e8b7a0 com.spotify.music/com.spotify.mobile.android.spotlets.smartdevicelink.service.SdlRouterService filter 42e90d78
+          Action: "BIND_REQUEST_TYPE_CLIENT"
+          Action: "BIND_REQUEST_TYPE_ALT_TRANSPORT"
+          Action: "BIND_REQUEST_TYPE_STATUS"
+      com.spotify.mobile.appprotocol.action.START_APP_PROTOCOL_SERVICE:
+        42ec46d8 com.spotify.music/com.spotify.mobile.android.spotlets.appprotocol.service.AppProtocolRemoteService filter 42ec4b20
+          Action: "com.spotify.mobile.appprotocol.action.START_APP_PROTOCOL_SERVICE"
+
+Permissions:
+  Permission [com.spotify.music.permission.C2D_MESSAGE] (43a47ef8):
+    sourcePackage=com.spotify.music
+    uid=10263 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{43aeaa10 com.spotify.music/10263}
+    perm=Permission{42e080e0 com.spotify.music.permission.C2D_MESSAGE}
+  Permission [com.spotify.music.permission.SECURED_BROADCAST] (43a5bf28):
+    sourcePackage=com.spotify.music
+    uid=10263 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{43aeaa10 com.spotify.music/10263}
+    perm=Permission{42b99d28 com.spotify.music.permission.SECURED_BROADCAST}
+  Permission [com.spotify.music.permission.INTERNAL_BROADCAST] (43a9f850):
+    sourcePackage=com.spotify.music
+    uid=10263 gids=[] type=0 prot=signature
+    packageSetting=PackageSetting{43aeaa10 com.spotify.music/10263}
+    perm=Permission{42b992b0 com.spotify.music.permission.INTERNAL_BROADCAST}
+
+Registered ContentProviders:
+  com.spotify.music/com.spotify.mobile.android.service.media.provider.MediaProvider:
+    Provider{42cc0780 com.spotify.music/com.spotify.mobile.android.service.media.provider.MediaProvider}
+  com.spotify.music/com.spotify.mobile.android.service.LoggerProvider:
+    Provider{42cc02e8 com.spotify.music/com.spotify.mobile.android.service.LoggerProvider}
+  com.spotify.music/.internal.provider.SpotifyProvider:
+    Provider{42bc7ad0 com.spotify.music/.internal.provider.SpotifyProvider}
+
+ContentProvider Authorities:
+  [com.spotify.music]:
+    Provider{42bc7ad0 com.spotify.music/.internal.provider.SpotifyProvider}
+      applicationInfo=ApplicationInfo{42b62dc8 com.spotify.music}
+  [com.spotify.music.logger]:
+    Provider{42cc02e8 com.spotify.music/com.spotify.mobile.android.service.LoggerProvider}
+      applicationInfo=ApplicationInfo{42b62dc8 com.spotify.music}
+  [com.spotify.mobile.android.mediaapi]:
+    Provider{42cc0780 com.spotify.music/com.spotify.mobile.android.service.media.provider.MediaProvider}
+      applicationInfo=ApplicationInfo{42b62dc8 com.spotify.music}
+
+Key Set Manager:
+  [com.spotify.music]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.spotify.music] (43aeaa10):
+    userId=10263 gids=[3003, 1028, 1015, 3002, 3001]
+    pkg=Package{42b62cf8 com.spotify.music}
+    codePath=/data/app/com.spotify.music-1.apk
+    resourcePath=/data/app/com.spotify.music-1.apk
+    nativeLibraryPath=/data/app-lib/com.spotify.music-1
+    versionCode=15466737 targetSdk=23
+    versionName=7.0.0.80
+    applicationInfo=ApplicationInfo{42b62dc8 com.spotify.music}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    dataDir=/data/data/com.spotify.music
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-11-03 10:19:40
+    firstInstallTime=2016-11-03 10:19:46
+    lastUpdateTime=2016-11-03 10:19:46
+    signatures=PackageSignatures{43aeaae0 [43aee3f0]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    User 0:  installed=true blocked=false stopped=false notLaunched=false enabled=0
+    grantedPermissions:
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.NFC
+      android.permission.USE_CREDENTIALS
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.spotify.music.permission.INTERNAL_BROADCAST
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.GET_ACCOUNTS
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.spotify.music.permission.SECURED_BROADCAST
+      android.permission.READ_PHONE_STATE
+      com.android.vending.BILLING
+      android.permission.BLUETOOTH
+      android.permission.INTERNET
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.BROADCAST_STICKY
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE
+      com.spotify.music.permission.C2D_MESSAGE
+mPackagesOnlyForOwnerUser:
+  package : com.android.mms
+  package : com.android.phone
+  package : com.sec.knox.containeragent
+mComponentsOnlyForOwnerUser:
+  package : com.android.contacts
+    cmp : com.android.contacts:com.android.contacts.activities.DialtactsActivity
+ 
+mEnforceCopyingLibPackages:
+ 
+mSkippingApks:
+mSkippingApks  [0]: SamsungWallet.apk
+ 
+mSettings.mPackages:
+the number of packages is 338
+mPackages:
+the number of packages is 338
+ 
+mIsSecretMode: false
+mSettings.mSecretPackageList:
+the number of secret packages is 0
+'removable_preload.txt' does not exist!
+End!!!!

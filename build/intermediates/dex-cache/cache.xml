@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sdluser/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_045b1c84ce616b9c6f731a7279bb2e4c4cb7b410.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_b983681532aa217657df2cc1a0976a4a04618954.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="21b29985cf18f6de7651c5973e8d8ca923dd3871">
+        <dex dex="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/pre-dexed/debug/instant-run_da6216203df66702e5e20550050a38adeb62f45f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_0075d167080131bf916dbc07b6df97738e4ced4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.2.1_ef31ad5509fe7d29bde3f9bd53bac8a1bbb6188a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/pre-dexed/debug/com.android.support-design-22.2.1_cf236b7ae84ee131aa2b00af89ee7dd877efd634.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d8778085e7675229782d72483692131e3c17ddb9">
+        <dex dex="/Users/sdluser/Documents/AndroidSDLHello/helloSdlAndroid/build/intermediates/pre-dexed/debug/instant-run-bootstrap_a1111d975a304246beebc1ffaad56bc9649527be.jar" />
+    </item>
+
+</items>

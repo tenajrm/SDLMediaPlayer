@@ -1,0 +1,453 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From HelloSdlAndroid:
+* .DS_Store
+* .idea/
+* .idea/HelloSdlAndroid.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/workspace.xml
+* ic_launcher-web.png
+* lib/
+* lib/.DS_Store
+* lib/sdl_android_lib/
+* lib/sdl_android_lib/.DS_Store
+* lib/sdl_android_lib/.settings/
+* lib/sdl_android_lib/.settings/org.eclipse.jdt.core.prefs
+* lib/sdl_android_lib/AndroidManifest.xml
+* lib/sdl_android_lib/project.properties
+* lib/sdl_android_lib/res/
+* lib/sdl_android_lib/res/drawable-hdpi/
+* lib/sdl_android_lib/res/drawable-hdpi/ic_sdl.png
+* lib/sdl_android_lib/res/drawable-hdpi/sdl_tray_icon.png
+* lib/sdl_android_lib/res/drawable-mdpi/
+* lib/sdl_android_lib/res/drawable-mdpi/ic_sdl.png
+* lib/sdl_android_lib/res/drawable-mdpi/sdl_tray_icon.png
+* lib/sdl_android_lib/res/drawable-xhdpi/
+* lib/sdl_android_lib/res/drawable-xhdpi/ic_sdl.png
+* lib/sdl_android_lib/res/drawable-xhdpi/sdl_tray_icon.png
+* lib/sdl_android_lib/res/drawable-xxhdpi/
+* lib/sdl_android_lib/res/drawable-xxhdpi/ic_sdl.png
+* lib/sdl_android_lib/res/drawable-xxhdpi/sdl_tray_icon.png
+* lib/sdl_android_lib/res/drawable-xxxhdpi/
+* lib/sdl_android_lib/res/drawable-xxxhdpi/ic_sdl.png
+* lib/sdl_android_lib/res/drawable-xxxhdpi/sdl_tray_icon.png
+* lib/sdl_android_lib/src/
+* lib/sdl_android_lib/src/.DS_Store
+* lib/sdl_android_lib/src/com/
+* lib/sdl_android_lib/src/com/.DS_Store
+* lib/sdl_android_lib/src/com/smartdevicelink/
+* lib/sdl_android_lib/src/com/smartdevicelink/Dispatcher/
+* lib/sdl_android_lib/src/com/smartdevicelink/Dispatcher/IDispatchingStrategy.java
+* lib/sdl_android_lib/src/com/smartdevicelink/Dispatcher/ProxyMessageDispatcher.java
+* lib/sdl_android_lib/src/com/smartdevicelink/SdlConnection/
+* lib/sdl_android_lib/src/com/smartdevicelink/SdlConnection/ISdlConnectionListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/SdlConnection/SdlConnection.java
+* lib/sdl_android_lib/src/com/smartdevicelink/SdlConnection/SdlSession.java
+* lib/sdl_android_lib/src/com/smartdevicelink/encoder/
+* lib/sdl_android_lib/src/com/smartdevicelink/encoder/SdlEncoder.java
+* lib/sdl_android_lib/src/com/smartdevicelink/exception/
+* lib/sdl_android_lib/src/com/smartdevicelink/exception/SdlException.java
+* lib/sdl_android_lib/src/com/smartdevicelink/exception/SdlExceptionCause.java
+* lib/sdl_android_lib/src/com/smartdevicelink/marshal/
+* lib/sdl_android_lib/src/com/smartdevicelink/marshal/JsonRPCMarshaller.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/AbstractProtocol.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/BinaryFrameHeader.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/IProtocolListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/ProtocolMessage.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/SdlPacket.aidl
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/SdlPacket.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/SdlPacketFactory.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/WiProProtocol.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/enums/
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/enums/FrameData.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/enums/FrameDataControlFrameType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/enums/FrameType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/enums/FunctionID.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/enums/MessageType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/enums/SessionType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/heartbeat/
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/heartbeat/HeartbeatMonitor.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/heartbeat/IHeartbeatMonitor.java
+* lib/sdl_android_lib/src/com/smartdevicelink/protocol/heartbeat/IHeartbeatMonitorListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/IProxyListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/LockScreenManager.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/RPCMessage.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/RPCNotification.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/RPCRequest.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/RPCRequestFactory.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/RPCResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/RPCStreamController.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/RPCStruct.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/SdlProxyALM.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/SdlProxyBase.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/SdlProxyBuilder.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/SdlProxyConfigurationResources.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/TTSChunkFactory.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/Version.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/callbacks/
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/callbacks/InternalProxyMessage.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/callbacks/OnError.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/callbacks/OnProxyClosed.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/callbacks/OnProxyOpened.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/callbacks/OnServiceEnded.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/callbacks/OnServiceNACKed.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/constants/
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/constants/Jingles.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/constants/Names.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/interfaces/
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/interfaces/IProxyListenerALM.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/interfaces/IProxyListenerBase.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/interfaces/IPutFileResponseListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AddCommand.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AddCommandResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AddSubMenu.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AddSubMenuResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AirbagStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Alert.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AlertManeuver.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AlertManeuverResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AlertResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/AudioPassThruCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/BeltStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/BodyInformation.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ButtonCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ChangeRegistration.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ChangeRegistrationResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Choice.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ClusterModeStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Coordinate.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/CreateInteractionChoiceSet.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/CreateInteractionChoiceSetResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DIDResult.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DTC.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DateTime.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeleteCommand.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeleteCommandResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeleteFile.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeleteFileResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeleteInteractionChoiceSet.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeleteInteractionChoiceSetResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeleteSubMenu.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeleteSubMenuResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeviceInfo.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DeviceStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DiagnosticMessage.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DiagnosticMessageResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DialNumber.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DialNumberResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/DisplayCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ECallInfo.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/EmergencyEvent.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/EndAudioPassThru.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/EndAudioPassThruResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/GPSData.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/GenericResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/GetDTCs.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/GetDTCsResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/GetVehicleData.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/GetVehicleDataResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/GetWayPoints.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/GetWayPointsResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/HMICapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/HMIPermissions.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/HeadLampStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Headers.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Image.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ImageField.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ImageResolution.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/KeyboardProperties.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ListFiles.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ListFilesResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/LocationDetails.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/MenuParams.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/MyKey.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OasisAddress.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnAppInterfaceUnregistered.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnAudioPassThru.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnButtonEvent.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnButtonPress.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnCommand.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnDriverDistraction.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnHMIStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnHashChange.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnKeyboardInput.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnLanguageChange.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnLockScreenStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnPermissionsChange.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnSdlChoiceChosen.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnStreamRPC.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnSystemRequest.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnTBTClientState.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnTouchEvent.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnVehicleData.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/OnWayPointChange.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ParameterPermissions.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/PerformAudioPassThru.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/PerformAudioPassThruResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/PerformInteraction.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/PerformInteractionResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/PermissionItem.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/PresetBankCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/PutFile.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/PutFileResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ReadDID.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ReadDIDResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/RegisterAppInterface.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/RegisterAppInterfaceResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ResetGlobalProperties.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ResetGlobalPropertiesResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ScreenParams.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ScrollableMessage.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ScrollableMessageResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SdlMsgVersion.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SendLocation.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SendLocationResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SetAppIcon.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SetAppIconResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SetDisplayLayout.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SetDisplayLayoutResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SetGlobalProperties.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SetGlobalPropertiesResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SetMediaClockTimer.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SetMediaClockTimerResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Show.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ShowConstantTbt.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ShowConstantTbtResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/ShowResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SingleTireStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Slider.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SliderResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SoftButton.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SoftButtonCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Speak.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SpeakResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/StartTime.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/StreamRPCResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SubscribeButton.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SubscribeButtonResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SubscribeVehicleData.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SubscribeVehicleDataResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SubscribeWayPoints.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SubscribeWayPointsResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SystemRequest.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/SystemRequestResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/TTSChunk.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/TextField.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/TireStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/TouchCoord.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/TouchEvent.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/TouchEventCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/Turn.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UnregisterAppInterface.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UnregisterAppInterfaceResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UnsubscribeButton.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UnsubscribeButtonResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UnsubscribeVehicleData.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UnsubscribeVehicleDataResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UnsubscribeWayPoints.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UnsubscribeWayPointsResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UpdateTurnList.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/UpdateTurnListResponse.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/VehicleDataResult.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/VehicleType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/VrHelpItem.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/AmbientLightStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/AppHMIType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/AppInterfaceUnregisteredReason.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/AudioStreamingState.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/AudioType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/BitsPerSample.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/ButtonEventMode.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/ButtonName.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/ButtonPressMode.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/CarModeStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/CharacterSet.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/CompassDirection.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/ComponentVolumeStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/DeliveryMode.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/DeviceLevelStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/Dimension.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/DisplayType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/DriverDistractionState.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/ECallConfirmationStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/EmergencyEventType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/FileType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/FuelCutoffStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/GlobalProperty.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/HMILevel.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/HmiZoneCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/IgnitionStableStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/IgnitionStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/ImageFieldName.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/ImageType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/InteractionMode.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/Jingle.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/KeyboardEvent.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/KeyboardLayout.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/KeypressMode.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/Language.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/LayoutMode.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/LockScreenStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/MediaClockFormat.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/PRNDL.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/PowerModeQualificationStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/PowerModeStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/PrerecordedSpeech.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/PrimaryAudioSource.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/RequestType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/Result.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/SamplingRate.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/SdlConnectionState.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/SdlDisconnectedReason.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/SdlInterfaceAvailability.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/SoftButtonType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/SpeechCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/SystemAction.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/SystemContext.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/TBTState.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/TextAlignment.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/TextFieldName.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/TouchType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/TriggerSource.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/UpdateMode.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/VehicleDataEventStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/VehicleDataNotificationStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/VehicleDataResultCode.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/VehicleDataStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/VehicleDataType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/VrCapabilities.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/WarningLightStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/WayPointType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/enums/WiperStatus.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/listeners/
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/listeners/OnPutFileUpdateListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/listeners/OnRPCNotificationListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/proxy/rpc/listeners/OnRPCResponseListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/security/
+* lib/sdl_android_lib/src/com/smartdevicelink/security/ISecurityInitializedListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/security/SdlSecurityBase.java
+* lib/sdl_android_lib/src/com/smartdevicelink/streaming/
+* lib/sdl_android_lib/src/com/smartdevicelink/streaming/AbstractPacketizer.java
+* lib/sdl_android_lib/src/com/smartdevicelink/streaming/IStreamListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/streaming/StreamPacketizer.java
+* lib/sdl_android_lib/src/com/smartdevicelink/streaming/StreamRPCPacketizer.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/DiagLevel.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/ISTListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/Mime.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/OpenRPCMessage.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/SdlTrace.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/TraceDeviceInfo.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/enums/
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/enums/DetailLevel.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/enums/InterfaceActivityDirection.java
+* lib/sdl_android_lib/src/com/smartdevicelink/trace/enums/Mod.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/BTTransport.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/BTTransportConfig.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/BaseTransportConfig.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/ITransportListener.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/MultiplexBluetoothTransport.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/MultiplexTransport.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/MultiplexTransportConfig.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/RouterServiceValidator.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/SdlBroadcastReceiver.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/SdlPsm.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/SdlRouterService.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/SdlRouterStatusProvider.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/SdlTransport.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/SiphonServer.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/TCPTransport.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/TCPTransportConfig.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/TransportBroker.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/TransportConstants.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/USBAccessoryAttachmentActivity.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/USBTransport.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/USBTransportConfig.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/enums/
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/enums/TransportType.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/utl/
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/utl/ByteAraryMessageAssembler.java
+* lib/sdl_android_lib/src/com/smartdevicelink/transport/utl/ByteArrayMessageSpliter.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/
+* lib/sdl_android_lib/src/com/smartdevicelink/util/AndroidTools.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/BitConverter.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/ByteEnumer.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/CorrelationIdGenerator.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/DebugTool.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/HttpRequestTask.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/HttpUtils.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/IConsole.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/NativeLogTool.java
+* lib/sdl_android_lib/src/com/smartdevicelink/util/SdlDataTypeConverter.java
+From sdl_android_lib:
+* .DS_Store
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:22.2.1]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In sdl_android_lib:
+* AndroidManifest.xml => sdl_android_lib/src/main/AndroidManifest.xml
+* res/ => sdl_android_lib/src/main/res/
+* src/ => sdl_android_lib/src/main/java/
+* src/.DS_Store => sdl_android_lib/src/main/resources/.DS_Store
+* src/com/.DS_Store => sdl_android_lib/src/main/resources/com/.DS_Store
+* src/com/smartdevicelink/protocol/SdlPacket.aidl => sdl_android_lib/src/main/aidl/com/smartdevicelink/protocol/SdlPacket.aidl
+In HelloSdlAndroid:
+* AndroidManifest.xml => helloSdlAndroid/src/main/AndroidManifest.xml
+* res/ => helloSdlAndroid/src/main/res/
+* src/ => helloSdlAndroid/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
