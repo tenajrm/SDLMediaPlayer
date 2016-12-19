@@ -4,3 +4,5 @@
 *.iml
 local.properties
 .DS_Store 
+helloSdlAndroid/build
+sdl_android_lib
